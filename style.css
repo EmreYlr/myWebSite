@@ -1,0 +1,73 @@
+a:link{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.loginButton:hover {
+    background-color: forestgreen;
+}
+.loginButton{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+div.Login{
+    width:500px;
+    height: 480px;
+    position: relative;
+    left: 480px;
+    top: 60px;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    border-left: outset 1px whitesmoke;
+    border-right: outset 2px whitesmoke;
+    border-top: outset 1px whitesmoke;
+    border-bottom: outset 2px whitesmoke;
+}
+div.LoginText{
+    position: relative;
+    left: 42px;
+    top: 10px;
+}
+div.EmailBox{
+    position: relative;
+    top: 13px;
+    left: 42px;
+}
+div.EmailText{
+    position: relative;
+    top: 5px;
+    left: 42px;
+}
+div.LoginBox{
+    position: relative;
+    top: 15px;
+    left: 42px;
+}
+div.RegisterText{
+    position: relative;
+    left: 280px;
+    top: -280px;
+}
+div.pass{
+    position: relative;
+    left: 42px;
+}
+div.ForgetPas{
+    position: relative;
+    left: 205px;
+    top: -15px;
+}
