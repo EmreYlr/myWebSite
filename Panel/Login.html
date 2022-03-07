@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in - myWebSite</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="/.pic/icon.ico">
+
+</head>
+<body style="background-color: #fffdfe">
+<h1 style = "color: darkcyan"><a href="../index.html">myWebSite</a></h1> <br>
+<form>
+    <div class="Login">
+        <div class="LoginText">
+        <h1><strong>Log in</strong></h1><br>
+        </div>
+        <div class="EmailText">
+            <label for="email" ><strong>Email</strong></label>
+        </div>
+        <div class="EmailBox">
+            <input type="email" id="email" autocomplete="off" required name="email" style="width: 400px; height: 35px" autofocus><br><br><br><br>
+        </div>
+        <div class="pass">
+        <label for="password"><strong>Password</strong></label><br>
+        <input type="password" id="password" autocomplete="off" required name="password" minlength="6" maxlength="15" style="width: 400px; height: 35px">
+        </div>
+        <br><br>
+        <div class="LoginBox">
+            <label for="login"></label>
+            <a href="../index.html">
+            <button type="button" onclick="alert('Login Successful!')" id="login" name="login" class="loginButton" style="height: 50px; width: 410px">Log in</button>
+            </a>
+        </div>
+        <div class="RegisterText">
+            <p><i>Need an account? </i><a href="newAccount.html">Sign up</a></p>
+        </div>
+        <div class="ForgetPas">
+            <p><i><small><a href="reset.html">Forgot password?</a></small></i></p>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>

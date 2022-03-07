@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - myWebSite</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="/.pic/icon.ico">
+</head>
+<body style="background-color: #fffdfe">
+<h1 style = "color: darkcyan"><a href="../index.html">myWebSite</a></h1> <br>
+<form>
+    <div class="Login">
+        <div class="LoginText">
+            <h1><strong>Sign Up</strong></h1><br>
+        </div>
+        <div class="NameText">
+            <label for="name" ><strong>Name</strong></label>
+        </div>
+        <div class="NameBox">
+            <input type="text" id="name" autocomplete="off" required name="name" style="width: 180px; height: 35px" autofocus><br><br><br><br>
+        </div>
+        <div class="LnameText">
+            <label for="Lname" ><strong>Last Name</strong></label>
+        </div>
+        <div class="LnameBox">
+            <input type="text" id="Lname" autocomplete="off" required name="Lname" style="width: 180px; height: 35px" ><br><br><br><br>
+        </div>
+        <div class="EmailTextRegister">
+            <label for="email" ><strong>Email</strong></label>
+        </div>
+        <div class="EmailBoxRegister">
+            <input type="email" id="email" autocomplete="off" required name="email" style="width: 400px; height: 35px" ><br><br><br><br>
+        </div>
+        <div class="passRegister">
+            <label for="password"><strong>Password</strong></label><br>
+            <input type="password" id="password" required name="password" minlength="6" maxlength="15" style="width: 400px; height: 35px">
+        </div>
+        <br><br>
+        <div class="checkBox">
+            <input type="checkbox" id="checkbox" name="checkbox" required>
+            <label for="checkbox">I agree to the <a target="_blank" href="../.pic/agree.jpeg">Terms and Conditions.</a></label><br>
+        </div>
+        <div class="RegisterButton">
+            <label for="RegisterButton"></label>
+            <button type="submit" id="RegisterButton" name="Register" class="RegisterButton" style="height: 50px; width: 410px">Sign Up</button>
+        </div>
+        <div class="haveAccount">
+            <p><i>Already have an account? </i> <a href="Login.html">Log in</a></p>
+        </div>
+    </div>
+</form>
+</body>
+</html>
